@@ -1,0 +1,36 @@
+{
+  "name": "react-native-invariants",
+  "version": "0.1.0",
+  "description": "Check React Native invariants with react-test-renderer.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": "https://github.com/moveaxlab/react-native-invariants",
+  "author": "Michelle Laurenti <michelle.laurenti@moveax.it>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rimraf lib && tsc",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.9",
+    "react-test-renderer": "^16.8.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.3",
+    "@types/react-native": "^0.57.60",
+    "@types/react-test-renderer": "^16.8.1",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "react": "^16.8.3",
+    "react-native": "^0.59.9",
+    "react-test-renderer": "^16.8.3",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.1"
+  }
+}
