@@ -2,6 +2,7 @@
 
 exports[`Test correct example renders CorrectExample without errors 1`] = `
 <View>
+  <View />
   <Text>
     This is some text
   </Text>

@@ -3,6 +3,7 @@ import { View, Text, Button } from 'react-native';
 
 export const CorrectExample: React.FunctionComponent = () => (
   <View>
+    <View />
     <Text>This is some text</Text>
     <Button title="A button" onPress={() => {}} />
   </View>

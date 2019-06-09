@@ -10,7 +10,7 @@
   "private": false,
   "scripts": {
     "build": "rimraf lib && tsc",
-    "test": "jest"
+    "test": "tsc --noEmit && jest"
   },
   "peerDependencies": {
     "react": "^16.8.3",
