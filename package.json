@@ -26,6 +26,7 @@
     "@types/react-native": "^0.57.60",
     "@types/react-test-renderer": "^16.8.1",
     "babel-jest": "^24.8.0",
+    "coveralls": "^3.0.4",
     "jest": "^24.8.0",
     "react": "^16.8.3",
     "react-native": "^0.59.9",
