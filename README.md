@@ -1,8 +1,8 @@
 # React Native Invariants
 
-![Travis (.com)](https://img.shields.io/travis/com/moveaxlab/react-native-invariants.svg)
-![Coveralls github](https://img.shields.io/coveralls/github/moveaxlab/react-native-invariants.svg)
-![npm](https://img.shields.io/npm/v/react-native-invariants.svg)
+[![Travis (.com)](https://img.shields.io/travis/com/moveaxlab/react-native-invariants.svg)](https://travis-ci.com/moveaxlab/react-native-invariants)
+[![Coveralls github](https://img.shields.io/coveralls/github/moveaxlab/react-native-invariants.svg)](https://coveralls.io/github/moveaxlab/react-native-invariants)
+[![npm](https://img.shields.io/npm/v/react-native-invariants.svg)](https://www.npmjs.com/package/react-native-invariants)
 
 This package checks React Native invariants not covered by `react-test-renderer` and friends.
 

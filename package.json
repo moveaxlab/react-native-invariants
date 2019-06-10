@@ -1,6 +1,6 @@
 {
   "name": "react-native-invariants",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Check React Native invariants with react-test-renderer.",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -8,14 +8,15 @@
   "author": "Michelle Laurenti <michelle.laurenti@moveax.it>",
   "license": "MIT",
   "private": false,
+  "keywords": ["react native", "invariants", "unit tests"],
   "scripts": {
     "build": "rimraf lib && tsc",
     "test": "tsc --noEmit && jest"
   },
   "peerDependencies": {
     "react": "^16.8.3",
-    "react-native": "^0.59.9",
-    "react-test-renderer": "^16.8.3"
+    "react-native": "^0.59.0",
+    "react-test-renderer": "^16.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
